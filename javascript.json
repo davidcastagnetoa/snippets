@@ -1,0 +1,28 @@
+{
+	"Securitas Direct Copyright": {
+		"prefix": "SD:1",
+		"body": [
+			"/*",
+			"================================================================================================================",
+			"* Copyright 2020 developed for Securitas Direct SAU",
+			"* Coded by David Castagneto Aguirre",
+			"================================================================================================================",
+			"* The use of this code is available only for academic purporse.",
+			"* You are login to Securitas Direct Spain SAU's Security System.",
+			"* You need authorization before to use it and you are be strictly limited at the use of it.",
+			"* If you reveal any data or internal information from Securitas Direct Spain without preview authorization",
+			"* You could be committing a violation of Corporate Regulations",
+			"================================================================================================================",
+			"*/" 
+		],
+		"description": "Header of information about security policies of Securitas Direct S.A.U."
+	},
+	"Print to console": {
+		"prefix": "log",
+		"body": [
+			"console.log('$1');",
+			"$2"
+		],
+		"description": "Log output to console"
+	}
+}

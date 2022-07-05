@@ -1,0 +1,79 @@
+{
+    "MoonshotSD": {
+        "prefix": "html6",
+        "body" : [
+            "<!DOCTYPE html>",
+            "<html lang='en'>",
+            "<head>",
+            "   <meta charset='UTF-8'>",
+            "   <meta name= 'viewport' content='width=device-width, initial-scale=1.0'>",
+            "   <meta name='viewport' content='width=device-width, initial-scale=1.0'>",
+            "   <title>${1:Título de la página}</title>",
+            "   <!-- Css -->",
+            "   <link rel='stylesheet' href='css/general.css'>",
+            "   <link rel='stylesheet' href='css/${2:titulos}.css'>",
+            "   <!-- Javascript -->",
+            "   <script type='text/javascript' src='js/general.js'></script>",
+            "   <script type='text/javascript' src='js/${3:titulo}.js'></script>",
+            "   <!-- fonts -->",
+            "   <link rel='preconnect' href='https://fonts.googleapis.com'>",
+            "   <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>",
+            "   <!-- Titanium Font -->",
+            "   <link href='https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap' rel='stylesheet'>",
+            "   <!-- Raleway Font -->",
+            "   <link href='https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,p00;0,500;1,100;1,200;1,300;1,400&display=swap' rel='stylesheet'>",
+            "   <!-- Manrope Font -->",
+            "   <link href='https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap' rel='stylesheet'>",
+            "   <!-- Nunito Font -->",
+            "   <link href='https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300&display=swap' rel='stylesheet'>",
+            "   <!-- icons -->",
+            "   <!-- Ionicons Pack -->",
+            "   <script type='module' src='https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js'></script>",
+            "   <script nomodule src='https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js'></script>",
+            "   <!-- Boxicons Pack -->",
+            "   <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>",
+            "   <!-- Favicon Pack -->",
+            "   <link rel='shortcut icon' href='img/Favicon/flavicon_red_purple2.png' type='image/x-icon'>",
+            "   <!-- FontAwesome -->",
+            "   <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.1/css/all.css' integrity='sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr' crossorigin='anonymous' />",
+            "   <link rel='stylesheet' href='https://pro.fontawesome.com/releases/v5.10.0/css/all.css' integrity='sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p' crossorigin='anonymous' />",
+            "</head>",
+            "<body>",
+            "${4:Texto del cuerpo}",
+            "</body>"
+        ]
+    },
+    "Boilerplate": {
+        "prefix": "html5",
+        "body": [
+            "<!DOCTYPE html>",
+            "<html lang='en'>",
+            "<head>",
+            "    <meta charset='UTF-8'>",
+            "    <meta name= 'viewport' content='width=device-width, initial-scale=1.0'>",
+            "    <title>${1:Título de la página}</title>",
+            "    <!-- styles -->",
+            "    <link rel='stylesheet' href='styles.css' type='text/css' media='screen'>",
+            "    <!-- scripts javascript -->",
+            "    <script type='text/javascript' src='index.js'></script>",
+            "    <!--icons-->",
+            "    <link rel='stylesheet' href='//use.fontawesome.com/releases/v5.0.7/css/all.css'>",
+            "</head>",
+            "<body>",
+            "    ${2:Texto de la página}",
+            "</body>",
+            "</html>"
+
+        ],
+        "description": "Your Personal Emmet Abreviation for HTML, edit in preferences, emmet, settings.json and search html.json"
+    },
+    "Bullets": {
+        "prefix": "bullets",
+        "body": [
+            "<ul>",
+            "  <li>$1</li>",
+            "</ul>"
+        ],
+        "description": "Adds bullet point list to HTML file"
+    }
+}
